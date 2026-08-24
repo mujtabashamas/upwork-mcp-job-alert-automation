@@ -1,2 +1,0 @@
-[console_scripts]
-upwork-alert-triage = upwork_alerts.main:run
