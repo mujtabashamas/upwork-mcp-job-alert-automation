@@ -1,0 +1,75 @@
+candidate:
+  name: Mujtaba
+  public_rate: 35
+
+hard_reject:
+  - data entry
+  - ai trainer
+  - prompt writer
+  - tutor
+  - tutoring
+  - academic
+  - internship
+  - junior
+  - unpaid test
+  - voice actor
+  - voiceover
+
+lanes:
+  agentic_ai:
+    keywords:
+      - agentic ai
+      - ai agent
+      - tool calling
+      - mcp
+      - claude
+      - openai
+      - langgraph
+    proof: Production agentic systems across voice, RAG, MCP, and business workflows.
+  voice_ai:
+    keywords:
+      - voice ai
+      - vapi
+      - retell
+      - twilio
+      - elevenlabs
+      - ai receptionist
+      - appointment booking
+    proof: Healthcare voice system for intake, qualification, appointments, CRM, and handoff.
+  document_ai:
+    keywords:
+      - rag
+      - retrieval augmented generation
+      - document intelligence
+      - ocr
+      - vector search
+      - pinecone
+      - qdrant
+    proof: Source-grounded RAG platform managing 1,682+ documents with audit history.
+  automation:
+    keywords:
+      - ai automation
+      - workflow automation
+      - n8n
+      - crm automation
+      - api integration
+      - webhook
+    proof: AI sales CRM with transcription, lead scoring, follow-ups, and pipelines.
+  production_ai:
+    keywords:
+      - fastapi
+      - python
+      - node.js
+      - next.js
+      - react
+      - postgresql
+      - supabase
+      - existing codebase
+      - production readiness
+    proof: Production AI applications with APIs, dashboards, auth, billing, and deployment.
+
+thresholds:
+  review_score: 5
+  minimum_hourly: 30
+  minimum_fixed: 750
+
