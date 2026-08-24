@@ -40,6 +40,11 @@ def notify(message: str) -> None:
         response.raise_for_status()
         sent = True
 
+    discord_webhook = os.getenv("DISCORD_WEBHOOK_URL")
+    if discord_webhook:
+        response = requests.post(discord_webhook, json={"content": message[:1900]}, timeout=20)
+        response.raise_for_status()
+        sent = True
+
     if not sent:
         print(message)
-
